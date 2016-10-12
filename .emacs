@@ -6,24 +6,24 @@
 ;;-----------------------------------------------------------------------------
 ;;
 ;; @author Naohisa Sakamoto
-;; @date   2015/02/17 16:11:23
+;; @date   2016/10/13  1:45:50
 ;;=============================================================================
 
 (defconst default-frame-width  120)
 (defconst default-frame-height 35)
 
-;; ローカル変数の設定
+;; Set local variables
 (setq user-full-name    "Naohisa Sakamoto")
-(setq user-mail-address "naohisas@viz.media.kyoto-u.ac.jp")
+(setq user-mail-address "naohisa.sakamoto@people.kobe-u.ac.jp")
 
-;; ロードパスの追加
+;; Add load path
 (setq load-path (cons "~/.emacs.d" load-path))
 (setq load-path (cons "/usr/local/share/emacs/site-lisp" load-path))
 
 (defmacro setq-local (var val )
   `(set (make-local-variable 'var) ,val))
 
-;; ローカル設定ファイルのロード
+;; Load configration files
 (load "config_environment")
 (load "config_japanese")
 (load "config_input_method")
@@ -35,7 +35,7 @@
 (load "config_application")
 (load "config_auto_mode")
 
-;; ローカル開発環境設定ファイルのロード
+;; Load developing environment configuration files
 (load "devel_elisp")
 (load "devel_cpp")
 (load "devel_cvs")
