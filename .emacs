@@ -17,7 +17,7 @@
 (setq user-mail-address "naohisa.sakamoto@people.kobe-u.ac.jp")
 
 ;; Add load path
-(setq load-path (cons "~/.emacs.d" load-path))
+(setq load-path (cons (concat (getenv "HOME") "/.emacs.d") load-path))
 (setq load-path (cons "/usr/local/share/emacs/site-lisp" load-path))
 
 (defmacro setq-local (var val )
