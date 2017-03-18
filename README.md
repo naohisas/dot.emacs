@@ -30,7 +30,7 @@ The installed Emacs.app can be opened from Terminal.
 ```
 $ open -a /Application/Emacs.app
 ```
-The following alias is optional, but it's recommended if you like to start by typing 'emacs' on Terminal. Create a alias in your shell. To make it permanen, put that line to your .profile (or .bash_profile, etc) at home directory
+The following alias is optional, but it's recommended if you like to start by typing 'emacs' on Terminal. Create a alias in your shell. To make it permanent, put that line to your .profile (or .bash_profile, etc) at home directory
 ```
 $ alias emacs="open -a /Applications/Emacs.app"
 ```
@@ -38,10 +38,8 @@ $ alias emacs="open -a /Applications/Emacs.app"
 ## Customization
 Appearance of emacs can be changed by modifying ~/.emacs.d/listp/config_appearance.el.
 <br><br>
+To change foreground and background colors, modify 'default-frame-alist'
 ```lisp
         '(foreground-color . "black")
         '(background-color . "wheat")
-        '(border-color .     "black")
-        '(mouse-color .      "white")
-        '(cursor-color .     "black"))
 ```
