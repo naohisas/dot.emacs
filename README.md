@@ -39,7 +39,7 @@ $ alias emacs="open -a /Applications/Emacs.app"
 ## Customization
 Appearance of emacs can be changed by modifying ~/.emacs.d/listp/config_appearance.el.
 <br><br>
-To change colors (foreground, background, etc.), modify the frame parameters in the variable 'default-frame-alist'
+To change colors (foreground, background, etc.), modify the frame parameters in the variable `default-frame-alist`
 ```cl:config_appearance.el
 (setq default-frame-alist
       (append
