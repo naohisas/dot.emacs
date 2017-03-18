@@ -5,7 +5,7 @@
 ;;
 ;;-----------------------------------------------------------------------------
 ;; @author Naohisa Sakamoto
-;; @date   2011/07/20 18:59:53
+;; @date   2017/03/18 10:09:44
 ;;=============================================================================
 
 ;; モードラインにカーソルの位置が何行目かを表示する。
@@ -88,8 +88,8 @@
 ;       default-frame-alist))
 
 ;; モードライン行の色の設定
-(set-face-foreground 'modeline "#ffffff")
-(set-face-background 'modeline "#b40000")
+(set-face-foreground 'mode-line "#ffffff")
+(set-face-background 'mode-line "#b40000")
 
 ;; タブ, 全角スペースを表示
 ;(defface my-face-r-1 '((t (:background "gray15"))) nil)
