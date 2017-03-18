@@ -53,8 +53,16 @@ To change colors (foreground, background, etc.), modify the frame parameters in 
         '(cursor-color .     "black"))
        default-frame-alist))
 ```
-Mode line color can be changed as follows:
+To change mode line color, modify the following colors.
 ```cl:config_appearance.el
 (set-face-foreground 'mode-line "#ffffff")
 (set-face-background 'mode-line "#b40000")
+```
+To enable menu bar, turn on `menu-bar-mode`.
+```cl:config_appearance.el
+(menu-bar-mode 1)
+```
+To enable tool bar, turn on `tool-bar-mode`.
+```cl:config_appearance.el
+(tool-bar-mode 1)
 ```
