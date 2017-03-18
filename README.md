@@ -66,7 +66,7 @@ To enable tool bar, turn on `tool-bar-mode`.
 (tool-bar-mode 1)
 ```
 ## Global Settings for Mac
-To be enabled to scroll up/down by block and select a region on Emacs by using control + arrows and space, disable several shortcuts for "Misson Control" and "Application windows" in System Preferances.
+To be enabled to scroll up/down by block and select a region on Emacs by using control + arrows and space, disable several shortcuts for Misson Control and Spotlight in System Preferances.
 1. Open "System Preferences"
 1. Click "Keyboard" in Hardware
 1. Select "Misson Control" in the Shortcuts tab
