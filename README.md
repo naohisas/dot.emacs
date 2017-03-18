@@ -15,11 +15,10 @@ $ cp -a .emacs* ~/
 ```
 Change the following local variables in ~/.emacs to your name and email address.
 ```cl:.emacs
-;; Set local variables
 (setq user-full-name    "Your name")
 (setq user-mail-address "Your email address")
 ```
-### Emacs in Mac OS
+### Emacs for Mac
 Older version of Emacs (Emacs22) is iinstalled by default with Mac OS. So it is suggested you to install new one on your Mac.
 <br><br>
 New Emcas (Emacs 25.1) can be installed with Homebrew in Mac.
@@ -53,7 +52,7 @@ To change colors (foreground, background, etc.), modify the frame parameters in 
         '(cursor-color .     "black"))
        default-frame-alist))
 ```
-To change mode line color, modify the following colors.
+To change modeline color, modify the following colors.
 ```cl:config_appearance.el
 (set-face-foreground 'mode-line "#ffffff")
 (set-face-background 'mode-line "#b40000")
@@ -66,3 +65,10 @@ To enable tool bar, turn on `tool-bar-mode`.
 ```cl:config_appearance.el
 (tool-bar-mode 1)
 ```
+<br><br>
+## Global Settings for Mac
+To be enabled to scroll up/down by block on Emacs by using control and arrows, disable the shortcuts for "Misson Control" and "Application windows" in System Preferances.
+1. Open "System Preferences"
+1. Click "Keyboard" in Hardware
+1. Select "Misson Control" in the Shortcuts tab
+1. Uncheck "Mission Control (^&uarr;)" and "Application windows (^&darr;)"
