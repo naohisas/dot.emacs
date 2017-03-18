@@ -21,7 +21,7 @@ Change the following local variables in ~/.emacs to your name and email address.
 ```
 ### Emacs in Mac OS
 Older version of Emacs (Emacs22) is iinstalled by default with Mac OS. So it is suggested you to install new one on your Mac.
-<br>
+<br><br>
 New Emcas (Emacs 25.1) can be installed with Homebrew in Mac.
 ```
 $ brew cask install emacs
