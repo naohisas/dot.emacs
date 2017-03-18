@@ -37,3 +37,11 @@ $ alias emacs="open -a /Applications/Emacs.app"
 
 ## Customization
 Appearance of emacs can be changed by modifying ~/.emacs.d/listp/config_appearance.el.
+<br><br>
+```lisp
+        '(foreground-color . "black")
+        '(background-color . "wheat")
+        '(border-color .     "black")
+        '(mouse-color .      "white")
+        '(cursor-color .     "black"))
+```
