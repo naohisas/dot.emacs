@@ -14,7 +14,7 @@ $ cd dot.emacs
 $ cp -a .emacs* ~/
 ```
 Change the following local variables in ~/.emacs to your name and email address.
-```
+```lisp:.emacs
 ;; Set local variables
 (setq user-full-name    "Your name")
 (setq user-mail-address "Your email address")
@@ -41,9 +41,15 @@ Appearance of emacs can be changed by modifying ~/.emacs.d/listp/config_appearan
 <br><br>
 To change colors (foreground, background, etc.), modify the frame parameters in the variable 'default-frame-alist'
 ```lisp:config_appearance.el
+(setq default-frame-alist
+      (append
+       (list
+        '(top . 0)
+        '(left . 0)
         '(foreground-color . "black")
         '(background-color . "wheat")
         '(border-color .     "black")
         '(mouse-color .      "white")
-        '(cursor-color .     "black")
+        '(cursor-color .     "black"))
+       default-frame-alist))
 ```
