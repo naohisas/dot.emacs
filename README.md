@@ -3,9 +3,14 @@
 This repository contains my Emacs configuration files and some emacs packages stored in the .emacs.d directory for Mac and Linux.
 
 ## Installation
+Fist of all, simply download dot.emacs from this site by clinking the green button "Clone or download" or directory clone it on Terminal as follows:
+```
+$ git clone https://github.com/naohisas/dot.emacs.git
+```
 ### dot.emacs
 Copy .emacs and .emacs.d to your home directory.
 ```
+$ cd dot.emacs
 $ cp -a .emacs* ~/
 ```
 Change local variables in ~/.emacs to your name and email address.
@@ -15,9 +20,9 @@ Change local variables in ~/.emacs to your name and email address.
 (setq user-mail-address "Your email address")
 ```
 ### Emacs in Mac OS
-Older version of Emacs is iinstalled by default with Mac OS. So it is suggested you to install new one on your Mac.
+Older version of Emacs (Emacs22) is iinstalled by default with Mac OS. So it is suggested you to install new one on your Mac.
 <br>
-Emcas can be installed with Homebrew in Mac.
+New Emcas (Emacs 25.1) can be installed with Homebrew in Mac.
 ```
 $ brew cask install emacs
 ```
