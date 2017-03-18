@@ -65,7 +65,6 @@ To enable tool bar, turn on `tool-bar-mode`.
 ```cl:config_appearance.el
 (tool-bar-mode 1)
 ```
-<br><br>
 ## Global Settings for Mac
 To be enabled to scroll up/down by block on Emacs by using control and arrows, disable the shortcuts for "Misson Control" and "Application windows" in System Preferances.
 1. Open "System Preferences"
