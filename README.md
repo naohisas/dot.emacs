@@ -30,7 +30,7 @@ The installed Emacs.app can be opened from Terminal.
 ```
 $ open -a /Application/Emacs.app
 ```
-The following alias is optional, but it's recommended if you like to start by typing 'emacs' on Terminal. Create a alias in your shell. To make it permanent, put that line to your .profile (or .bash_profile, etc) at home directory
+The following alias is optional, but it's recommended if you like to start by typing 'emacs' on Terminal. Create the alias in your shell. To make it permanent, put that line to your .profile (or .bash_profile, etc) at home directory
 ```
 $ alias emacs="open -a /Applications/Emacs.app"
 ```
