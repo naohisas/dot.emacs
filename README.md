@@ -24,6 +24,7 @@ Older version of Emacs (Emacs22) is iinstalled by default with Mac OS. So it is 
 <br><br>
 New Emcas (Emacs 25.1) can be installed with Homebrew in Mac.
 ```
+$ brew tap caskroom/cask
 $ brew cask install emacs
 ```
 The installed Emacs.app can be opened from Terminal.
