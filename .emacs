@@ -6,7 +6,7 @@
 ;;-----------------------------------------------------------------------------
 ;;
 ;; @author Naohisa Sakamoto
-;; @date   2016/10/13  1:45:50
+;; @date   2017/03/18 10:12:04
 ;;=============================================================================
 
 (defconst default-frame-width  120)
@@ -17,7 +17,7 @@
 (setq user-mail-address "naohisa.sakamoto@people.kobe-u.ac.jp")
 
 ;; Add load path
-(setq load-path (cons (concat (getenv "HOME") "/.emacs.d") load-path))
+(setq load-path (cons (concat (getenv "HOME") "/.emacs.d/lisp") load-path))
 (setq load-path (cons "/usr/local/share/emacs/site-lisp" load-path))
 
 (defmacro setq-local (var val )
