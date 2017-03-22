@@ -71,5 +71,6 @@ To be enabled to scroll up/down by block and select a region on Emacs by using c
 1. Click "Keyboard" in Hardware
 1. Select "Misson Control" in the Shortcuts tab
 1. Uncheck "Mission Control" and "Application windows"
+1. Uncheck "Move left a space" and "Move right a space"
 1. Select "Spotlight" in the Shortcuts tab
 1. Uncheck "Show Spotlight search"
