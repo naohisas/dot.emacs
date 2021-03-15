@@ -42,7 +42,7 @@ or
 ```
 $ alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs 2>/dev/null"
 ```
-For Apple M1, `arch -86_64` is required as follows:
+For Apple M1, `arch -x86_64` is required as follows:
 ```
 $ alias emacs="arch -x86_64 /Applications/Emacs.app/Contents/MacOS/Emacs 2>/dev/null"
 ```
