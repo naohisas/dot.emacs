@@ -26,6 +26,10 @@ New Emcas (Emacs 25.1) can be installed with Homebrew in Mac.
 $ brew tap caskroom/cask
 $ brew cask install emacs
 ```
+For Apple M1, Emacs can be installed as follows:
+```
+$ brew install --cask emacs
+```
 The installed Emacs.app can be opened from Terminal.
 ```
 $ open -a /Application/Emacs.app
