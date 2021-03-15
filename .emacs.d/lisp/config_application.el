@@ -5,7 +5,7 @@
 ;;
 ;;-----------------------------------------------------------------------------
 ;; @author Naohisa Sakamoto
-;; @date   2016/06/23 16:26:02
+;; @date   2021/03/16  0:13:44
 ;;=============================================================================
 
 ;;-----------------------------------------------------------------------------
@@ -41,27 +41,27 @@
 ;;-----------------------------------------------------------------------------
 ;; Direx
 ;;-----------------------------------------------------------------------------
-(require 'popwin)
-(setq display-buffer-function 'popwin:display-buffer)
+;(require 'popwin)
+;(setq display-buffer-function 'popwin:display-buffer)
 
-(require 'direx)
-(require 'direx-project)
-;(setq direx:leaf-icon "  "
-;      direx:open-icon "\&#9662; "
-;      direx:closed-icon "&#9654; ")
-(push '(direx:direx-mode :position left :width 25 :dedicated t)
-      popwin:special-display-config)
+;(require 'direx)
+;(require 'direx-project)
+;;(setq direx:leaf-icon "  "
+;;      direx:open-icon "\&#9662; "
+;;      direx:closed-icon "&#9654; ")
+;(push '(direx:direx-mode :position left :width 25 :dedicated t)
+;      popwin:special-display-config)
 
-(defun direx:jump-to-project-directory ()
-  (interactive)
-  (let ((result (ignore-errors
-                  (direx-project:jump-to-project-root-other-window)
-                  t)))
-    (unless result
-      (direx:jump-to-directory-other-window))))
-(global-set-key (kbd "C-x C-j") 'direx:jump-to-directory-other-window)
-;(global-set-key (kbd "C-x C-j") 'direx-project:jump-to-project-root-other-window)
-;(global-set-key (kbd "C-x C-j") 'direx-project:jump-to-project-root)
+;(defun direx:jump-to-project-directory ()
+;  (interactive)
+;  (let ((result (ignore-errors
+;                  (direx-project:jump-to-project-root-other-window)
+;                  t)))
+;    (unless result
+;      (direx:jump-to-directory-other-window))))
+;(global-set-key (kbd "C-x C-j") 'direx:jump-to-directory-other-window)
+;;(global-set-key (kbd "C-x C-j") 'direx-project:jump-to-project-root-other-window)
+;;(global-set-key (kbd "C-x C-j") 'direx-project:jump-to-project-root)
 
 ;;-----------------------------------------------------------------------------
 ;; Auto-complete
