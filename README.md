@@ -38,6 +38,14 @@ The following alias is optional, but it's recommended if you like to start by ty
 ```
 $ alias emacs="open -a /Applications/Emacs.app"
 ```
+or
+```
+$ alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs 2>/dev/null"
+```
+For Apple M1, `arch -86_64` is required as follows:
+```
+$ alias emacs="arch -x86_64 /Applications/Emacs.app/Contents/MacOS/Emacs 2>/dev/null"
+```
 
 ## Customization
 Appearance of emacs can be changed by modifying ~/.emacs.d/listp/config_appearance.el.
